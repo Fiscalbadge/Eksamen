@@ -4,7 +4,7 @@ body {
     margin: 10px;
     padding: 1rem;
 }
-
+/* header */
 header {
     text-align: left ;
     background-color: white;
@@ -41,6 +41,7 @@ nav .logo {
     text-decoration: none;  
 }
 
+/*index*/
 
 .pakke-box {
     background-color: rgb(211, 203, 193); 
@@ -145,6 +146,7 @@ nav .logo {
     height: 100px;
 }
 
+/* Footer */
 section .logo a {
     text-decoration: none;
     color: #000;
@@ -177,6 +179,155 @@ section .logo a {
 #Sosiale-medier a {
     text-decoration: none;
     color: #000;
+}
+
+/* chechout */
+.shopping-bag h1 {
+    text-transform: uppercase;
+}
+
+
+.shopping-bag article img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 0% ;
+
+}
+
+.shopping-bag article h3 {
+    font-size: 1.2rem;
+    margin: 0% ;
+    color: #333;
+}
+
+.shopping-bag article p {
+    margin: 0%;
+}
+
+.dine-opplysninger h1 {
+    text-transform: uppercase;
+}
+.dine-opplysninger form {
+    display: flex;
+    flex-direction: column;
+}
+
+.dine-opplysninger input {
+    width: 100%; 
+    padding: 5px; 
+    margin-bottom: 5px; 
+    border: 1px solid #ccc; 
+    font-size: 16px; 
+    box-sizing: border-box; 
+    height: 40px;
+}
+.knpp{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.levering h1 {
+    text-transform: uppercase;
+}
+
+.levering form {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+.levering form h3 {
+    font-weight: bold;
+}
+
+.levering label {
+    margin-bottom: 10px;
+}
+.betaling h1 {
+    text-transform: uppercase;
+}
+
+.betaling form {
+    display: flex;
+    flex-direction: column;
+}
+.betaling input {
+    height: 40px;
+}
+.knp {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkboxes input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 0%;
+    width: 15px; 
+    height: 15px; 
+}
+/* produkter */
+.breadcrumb {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.breadcrumb a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #000;
+}
+
+#proprodukter img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 0% ;
+}
+#merkenavn {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+aside h1 {
+    margin-left: 40px;
+}
+
+aside img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 0% ;
+}
+aside figcaption {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* strek over footer */
+hr {
+    border: none;
+    border-top: 2px solid #ccc; 
+    margin: 60px 0; 
 }
 
 

@@ -32,8 +32,116 @@
         </div>
         
     </header>
-    <main></main>
+    <main>
+        <h1>Kasse</h1>
+        <section class="shopping-bag">
+            <h1>1. shoppingbagen din</h1>
+            <article>
+                <a href="product.html">
+                    <img src="Bilder/suit-2619784_640.jpg" alt="Produktbilde">
+                </a>
+                <h3>Product name</h3>
+                <p>kr 1999</p>
+                <p>Farge: Blå</p>
+            </article>
+            <article>
+                <a href="product.html">
+                    <img src="Bilder/suit-2619784_640.jpg" alt="Produktbilde">
+                </a>
+                <h3>Product name</h3>
+                <p>kr 1999</p>
+                <p>Farge: Blå</p>
+            </article>
+            <article>
+                <a href="product.html">
+                    <img src="Bilder/suit-2619784_640.jpg" alt="Produktbilde">
+                </a>
+                <h3>Product name</h3>
+                <p>kr 1999</p>
+                <p>Farge: Blå</p>
+            </article>
 
+        </section>
+        <section class="dine-opplysninger">
+            <h1>2. dine opplysninger</h1>
+            
+            <form>
+                <p>Leveringssesadre</p>
+                <input type="text" id="fornavn" name="fornavn" placeholder="fornavn*" required />
+        
+                <input type="text" id="etternavn" name="etternavn" placeholder="etternavn*" required />
+    
+                <input type="text" id="gateadresse" name="gateadresse" placeholder="gateadresse*" required />
+        
+                <input type="text" id="postnummer" name="postnummer" placeholder="postnummer*" required />
+        
+                <input type="text" id="postnummer" name="postnummer" placeholder="postnummer*" required />
+            
+        
+                <button type="submit" class="knpp">Lagre</button>
+                <a href="#">Avbryt</a>
+            </form>
+
+        </section>
+        <section class="levering">
+            <h1>3. levering</h1>
+            <form>
+                <h3>Leveringsvalg</h3>
+                <label>
+                    <input type="radio" name="levering" value="express_hjemlevering">
+                    Express Hjemlevering
+                </label>
+                <label>
+                    <input type="radio" name="levering" value="express_utleveringssted">
+                    Ekspress Pakke til utleveringssted
+                </label>
+        
+                <label>
+                    <input type="radio" name="levering" value="standard_hjemlevering">
+                    Standard Hjemlevering
+                </label>
+            </form>
+
+        </section>
+
+        <section class="betaling">
+            <h1>4. betaling</h1>
+            <form>
+                <label for="kortnummer">Kortnummer</label>
+                <input type="text" id="kortnummer" name="kortnummer" placeholder="342342****4435" required>
+
+                <label for="utløpsdato">Kortnummer</label>
+                <input type="text" id="utløpsdato" name="utløpsdato" placeholder="mm/dd/yyyy" required>
+
+                <label for="CVC/CCV">Kortnummer</label>
+                <input type="text" id="CVC/CCV" name="CVC/CCV" placeholder="cvc/ccv" required>
+            </form>
+
+            <p>å betale inkl. mva.</p>
+            <p>1 199 kr</p>
+            <button type="submit" class="knp">Fullfør kjøp</button>
+            <p>
+                Du bekrefter herved at opplysningene og dokumentene du har
+                oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg
+                retten til å heve eller avslutte avtaleforholdet dersom det foreligger
+                uriktige eller ufullstendige opplysninger.
+            </p>
+
+            <div class="checkboxes">
+                <label>
+                    <input type="checkbox">
+                    Ja takk! Send nyhetsbrev til meg.
+                </label>
+                <label>
+                    <input type="checkbox">
+                    Jeg ønsker å motta tekstmeldinger med tilbud og nyheter.
+                </label>
+            </div>
+                
+        </section>
+
+    </main>
+    <hr>
     <footer>
         <section>
             <h1 class="logo"><a href="index.html">Logo</a></h1>
